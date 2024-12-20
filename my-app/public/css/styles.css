@@ -11,26 +11,23 @@ body {
     background-color: #f5c52b;
 }
 
-/* Navbar */
+/* Navbar styling */
 .navbar {
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 10;
 }
 
-.navbar-brand {
-    color: #000;
+.navbar .navbar-brand {
     font-size: 1.5rem;
+    font-weight: bold;
 }
 
-.nav-link {
-    color: #333;
-    font-weight: 600;
-    transition: color 0.3s ease;
+.navbar .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    color: #555;
 }
-
-.nav-link:hover {
-    color: #f0b71b;
-}
-
 /* Hero Section */
 .hero-section {
     background-color: #f0b71b;

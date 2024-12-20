@@ -51,7 +51,7 @@
 
     <!-- Initially disabled -->
 <a href="/clientlogin">
-    <button id="loginButton" class="btn btn-primary w-100" disabled>Proceed</button>
+    <button id="loginButton" class="btn btn-primary w-100" style="background-color: gray">Proceed</button>
   </a>
   
   </div>

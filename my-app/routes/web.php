@@ -24,3 +24,12 @@ Route::get('/login1', function () {
 Route::get('/clientlogin', function () {
     return view('clientlogin'); 
 });
+
+Route::get('/third-party login', function () {
+    return view('third-party login'); 
+});
+
+use App\Http\Controllers\Auth\GoogleController;
+
+Route::get('login/google', [GoogleController::class, 'redirectToGoogle']);
+Route::get('login/google/callback', [GoogleController::class, 'handleGoogleCallback']);
